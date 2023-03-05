@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./scss/verTodos.css";
 
-export default function App() {
-    const[classNameP, setClassNameP] = useState("verTodos")
-    const[classNameTodos, setClassNameTodos] = useState("none")
+export default function App(props) {
+    const[classNameP, setClassNameP] = useState(props.p)
+    const[classNameTodos, setClassNameTodos] = useState(props.show)
 
     const trocarClass = () => {
         setClassNameP("none");

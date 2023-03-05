@@ -9,7 +9,6 @@ $pink: #f71963;
 .img-vendas250 {
   position: absolute;
   width: 1440px;
-  height: 390px;
 }
 
 .img-vendas180 {
@@ -20,13 +19,16 @@ $pink: #f71963;
   opacity: 0.8;
 }
 
-.txt-img p{
+.txt-img {
   position: absolute;
-  width: 822px;
-  height: 128px;
-  left: 89px;
-  top: 196px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -340px;
+  margin-left: 86px;
+}
 
+.txt-img p {
+  width: 822px;
   font-weight: 600;
   font-size: 48px;
   font-style: normal;
@@ -35,11 +37,6 @@ $pink: #f71963;
 }
 
 .txt-img span {
-  position: absolute;
-  width: 389px;
-  height: 54px;
-  left: 86px;
-  top: 340px;
   font-weight: 600;
   font-size: 36px;
   line-height: 54px;
@@ -50,8 +47,7 @@ $pink: #f71963;
   position: absolute;
   width: 227px;
   height: 60px;
-  left: 87px;
-  top: 429px;
+  margin-top: 40px;
 
   background: $pink;
   border-radius: 5px;
@@ -60,6 +56,6 @@ $pink: #f71963;
   font-size: 18px;
   line-height: 27px;
 
-  color: #ffffff;
+  color: $white;
   border: none;
 }

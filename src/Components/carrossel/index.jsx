@@ -14,9 +14,9 @@ export default function App() {
         <div className="txt-img">
             <p>Venha conhecer nossas promoções</p>
             <span>50% off nos produtos</span>
-        </div>
         <div className="button-img">
           <button> Ver produto </button>
+        </div>
         </div>
       </div>
     );
