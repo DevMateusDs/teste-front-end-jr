@@ -24,7 +24,9 @@ export default function App({ descript, photoURL, price, name }) {
         left: "50%",
         right: "auto",
         marginRight: "-50%",
-        transform: "translate(-50%, -50%)"
+        transform: "translate(-50%, -50%)",
+        width: "769px",
+        height: "300px"
       }
     };
 
