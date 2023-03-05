@@ -11,7 +11,6 @@ $pink: #f71963;
 }
 
 .footer-section1 {
-  width: 1442px;
   height: 325px;
   display: flex;
   flex-direction: row;
@@ -140,10 +139,10 @@ $pink: #f71963;
   border: 1px solid $pink;
 }
 
-.cad-input button:hover{
+.cad-input button:hover {
   color: $pink;
   background: $white;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .footer-text p {
