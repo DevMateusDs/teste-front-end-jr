@@ -1,7 +1,7 @@
 > # Teste Econverse: Vaga Desenvolvedor Front-End Jr
-> ### O Projeto foi desenvolvido com ReactJs
-> ### Para acessá-lo clique [AQUI](https://teste-econverse-eight.vercel.app/)
-> ### Obrigado pela atenção, espero que gostem!
+> - ### O Projeto foi desenvolvido com ReactJs
+> - ### Para acessá-lo clique [AQUI](https://teste-econverse-eight.vercel.app/)
+> - ### Obrigado pela atenção, espero que gostem!
 
 <br>
 
